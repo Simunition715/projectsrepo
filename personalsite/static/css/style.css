@@ -1,0 +1,82 @@
+body {
+	background-color: #000000;
+}
+#container {
+	width: 75%;
+	height: auto;
+	background-color: #F7F6F2;
+	margin: 0 auto;
+}
+#header {
+	width: 95%;
+	height: 60px;
+	border-bottom: 1px solid #000000;
+	margin: 0 auto;
+
+}
+#title {
+	font-family: 'Syncopate', sans-serif;
+	line-height: 60px;
+}
+#navbar ul {
+	list-style-type: none;
+}
+#navbar ul li {
+	display: inline-block;
+	margin-left: 1em;
+}
+#navbar ul li a {
+	font-family: 'Cabin Sketch', cursive;
+	text-decoration: none;
+	color: #000000;
+}
+#navbar ul li a:hover {
+	font-family: 'Cabin Sketch', cursive;
+	text-decoration: none;
+	color: #b7b7b7;
+}
+#main {
+	width: 75%;
+	height: 500px;
+	background-size: cover;
+	margin:0 auto;
+}
+#img {
+	width: 100%;
+	height: 100%;
+	background-image: url(images/bg.jpg);
+	background-size: cover;
+}
+
+@media all and (max-width: 41.25em) {
+	#title {
+		font-size: .90em;
+	}
+	#navbar ul li {
+		display: block;
+		padding-left: 0;
+		margin-left: .5em;
+	}
+	#navbar ul {
+		list-style-type: none;
+		padding-left: 0;
+	}
+	#main {
+		width: 75%;
+		height: auto;
+		background-image: url(images/bg.jpg);
+		background-size: cover;
+		margin:0 auto;
+	}
+	#img {
+		width: 100%;
+		height: auto;
+		background-image: url(images/bg.jpg);
+		background-size: cover;
+	}
+}
+@media all and (min-width: 41.25em) {
+	#title {
+		font-size: 1.5em;
+	}
+}
