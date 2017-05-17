@@ -1,0 +1,70 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	#container {
+		width: 100%;
+		height: 100%;
+
+	}
+	#header {
+		width: 100%;
+		height: 6.75em;
+		background-color: white;
+		margin:0 auto;
+
+	}
+	#hello {
+		font-size: 4.5em;
+		font-family: 'Syncopate', sans-serif;
+		color: black;
+		text-align: center;
+		margin: 0px;
+		line-height: 100px;
+	}
+	#boxes {
+		width: 100%;
+		height: 100%;
+		margin: 20px auto;
+		padding-left: 12px;
+	}
+	.boxes {
+		width: 24%;
+		height:233px;
+		border:1px solid black;
+		display: inline-block;
+		background-color: white;
+		border-radius: 25px;	
+
+	}
+	#info {
+		height: 1200px;
+		overflow: scroll;
+		background-color: white;
+	}
+	.mainp {
+		font-family: 'Arapey', serif;
+		text-indent: 20px;
+		font-size: 2em;
+		margin: 10px;
+		margin-bottom: 20px;
+	}
+	#footer {
+		width: 100%;
+		height: 7.75em;
+		background-color: black;
+		color: grey;
+		padding-top: 20px;
+		margin:20 auto;	
+	}
+	#name {
+		font-size: 1.5em;
+		font-family: helvetica;
+		margin-left: 20px;
+	}
+	#image {
+		width: 100%;
+	}
+}
+
+body {
+	background-color: black;
+}
+
